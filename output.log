@@ -1,0 +1,481 @@
+01:24:52.640 [localhost-startStop-1] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+01:24:52.771 [localhost-startStop-1] DEBUG org.hibernate.jpa.internal.util.LogHelper - PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: WebappClassLoader
+  context: /spring-mvc
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1de0aca6]
+
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: org.springframework.jdbc.datasource.DriverManagerDataSource@322df9a9
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/home/sebastian/java/libros/spring/codigo/spring-mvc/src/main/webapp/WEB-INF/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.sebastian.hello.modelo.Empresa]
+	Mapping files names []
+	Properties []
+01:24:52.812 [localhost-startStop-1] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+01:24:52.817 [localhost-startStop-1] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+01:24:52.824 [localhost-startStop-1] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+01:24:52.825 [localhost-startStop-1] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.jpa.event.spi.JpaIntegrator].
+01:24:52.983 [localhost-startStop-1] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.10.Final}
+01:24:52.987 [localhost-startStop-1] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01:24:53.018 [localhost-startStop-1] DEBUG org.hibernate.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+01:24:53.079 [localhost-startStop-1] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+01:24:53.105 [localhost-startStop-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01:24:53.182 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@3b113bfe
+01:24:53.183 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@3b113bfe
+01:24:53.183 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3b113bfe
+01:24:53.185 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@db4187c
+01:24:53.188 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@325a2dff
+01:24:53.189 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@19629ecb
+01:24:53.194 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@3e31dd9c
+01:24:53.194 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@3e31dd9c
+01:24:53.194 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@3e31dd9c
+01:24:53.197 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@3bc5d8a8
+01:24:53.198 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@3bc5d8a8
+01:24:53.198 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3bc5d8a8
+01:24:53.202 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@4c9c934
+01:24:53.203 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@4c9c934
+01:24:53.203 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@4c9c934
+01:24:53.206 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@17486c73
+01:24:53.207 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@17486c73
+01:24:53.207 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@17486c73
+01:24:53.211 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@1d0f0ff7
+01:24:53.212 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@1d0f0ff7
+01:24:53.212 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@1d0f0ff7
+01:24:53.216 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@6f281e4
+01:24:53.217 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@6f281e4
+01:24:53.217 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6f281e4
+01:24:53.220 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@71c221d5
+01:24:53.221 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@71c221d5
+01:24:53.222 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@71c221d5
+01:24:53.226 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@683cf7e0
+01:24:53.227 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@683cf7e0
+01:24:53.229 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7b8f9c1e
+01:24:53.230 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7b8f9c1e
+01:24:53.232 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@451f252
+01:24:53.232 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@451f252
+01:24:53.235 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@4b99046b
+01:24:53.237 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7998ef95
+01:24:53.239 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@7c23a24d
+01:24:53.240 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@7c23a24d
+01:24:53.242 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@37ecea25
+01:24:53.243 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@37ecea25
+01:24:53.259 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@6c363ea8
+01:24:53.260 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@6c363ea8
+01:24:53.263 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@5decc84b
+01:24:53.263 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@5decc84b
+01:24:53.267 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@49151d9b
+01:24:53.268 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@49151d9b
+01:24:53.272 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@3414e77d
+01:24:53.272 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@3414e77d
+01:24:53.276 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2b8f6237
+01:24:53.276 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2b8f6237
+01:24:53.279 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@2f59032e
+01:24:53.280 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@2f59032e
+01:24:53.283 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@14c4b3d7
+01:24:53.284 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@14c4b3d7
+01:24:53.287 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@d5e41ac
+01:24:53.287 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@d5e41ac
+01:24:53.290 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@3e2c70e2
+01:24:53.290 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@3e2c70e2
+01:24:53.293 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@4b0ab8c3
+01:24:53.293 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@4b0ab8c3
+01:24:53.294 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@4b0ab8c3
+01:24:53.298 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@65e105dd
+01:24:53.300 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@45318a00
+01:24:53.301 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@45318a00
+01:24:53.301 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@45318a00
+01:24:53.302 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@290e60c2
+01:24:53.305 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@52b265f0
+01:24:53.305 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@52b265f0
+01:24:53.307 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@6925d634
+01:24:53.308 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@6925d634
+01:24:53.310 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@27fc207a
+01:24:53.310 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@27fc207a
+01:24:53.312 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@34ac7140
+01:24:53.313 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@34ac7140
+01:24:53.316 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@236af222
+01:24:53.317 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@236af222
+01:24:53.318 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@152bd250
+01:24:53.320 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@7fd02c9f
+01:24:53.321 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@7fd02c9f
+01:24:53.321 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@7fd02c9f
+01:24:53.324 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5805524
+01:24:53.324 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5805524
+01:24:53.324 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5805524
+01:24:53.327 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@70af0cfa
+01:24:53.329 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@a0d77b3
+01:24:53.331 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@7b9c0426
+01:24:53.332 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@7b9c0426
+01:24:53.332 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@7b9c0426
+01:24:53.334 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@3a76db05
+01:24:53.335 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@3a76db05
+01:24:53.335 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@3a76db05
+01:24:53.337 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@2bcef1d
+01:24:53.338 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@33b769c0
+01:24:53.348 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@22607e0f
+01:24:53.349 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@22607e0f
+01:24:53.350 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@188712e5
+01:24:53.360 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@3ace7f99
+01:24:53.361 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3ace7f99
+01:24:53.368 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@e884cb6
+01:24:53.368 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@e884cb6
+01:24:53.369 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3cfdb66d
+01:24:53.370 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@44ee692e
+01:24:53.373 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@3fc7235e
+01:24:53.380 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@64c4eb8
+01:24:53.380 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@64c4eb8
+01:24:53.381 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@74ea0e2b
+01:24:53.381 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@4a5846ca
+01:24:53.382 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@6d932de5
+01:24:53.382 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@40d1ac2f
+01:24:53.382 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@64ee7948
+01:24:53.382 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6c880d09
+01:24:53.383 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1880f978
+01:24:53.383 [localhost-startStop-1] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@557d8e93
+01:24:53.774 [localhost-startStop-1] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.6.38
+      major : 5
+      minor : 6
+01:24:53.774 [localhost-startStop-1] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+01:24:53.776 [localhost-startStop-1] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - JDBC version : 3.0
+01:24:53.795 [localhost-startStop-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+01:24:53.842 [localhost-startStop-1] DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+01:24:53.845 [localhost-startStop-1] DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+01:24:53.858 [localhost-startStop-1] INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+01:24:53.910 [localhost-startStop-1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+01:24:53.911 [localhost-startStop-1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+01:24:53.912 [localhost-startStop-1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+01:24:53.912 [localhost-startStop-1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+01:24:53.913 [localhost-startStop-1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+01:24:53.916 [localhost-startStop-1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+01:24:53.917 [localhost-startStop-1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+01:24:53.919 [localhost-startStop-1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+01:24:53.921 [localhost-startStop-1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+01:24:53.922 [localhost-startStop-1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+01:24:53.923 [localhost-startStop-1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+01:24:53.924 [localhost-startStop-1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+01:24:53.925 [localhost-startStop-1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+01:24:53.927 [localhost-startStop-1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+01:24:53.985 [localhost-startStop-1] DEBUG org.hibernate.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+01:24:54.034 [localhost-startStop-1] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.sebastian.hello.modelo.Empresa
+01:24:54.096 [localhost-startStop-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+01:24:54.109 [localhost-startStop-1] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name Empresa
+01:24:54.117 [localhost-startStop-1] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity com.sebastian.hello.modelo.Empresa on table empresas
+01:24:54.166 [localhost-startStop-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(empresas), mappingColumn=rut, insertable=true, updatable=true, unique=false}
+01:24:54.173 [localhost-startStop-1] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property rut with lazy=false
+01:24:54.178 [localhost-startStop-1] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.sebastian.hello.modelo.Empresa:rut]
+01:24:54.182 [localhost-startStop-1] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for rut
+01:24:54.197 [localhost-startStop-1] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property rut
+01:24:54.204 [localhost-startStop-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(empresas), mappingColumn=alias, insertable=true, updatable=true, unique=false}
+01:24:54.204 [localhost-startStop-1] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property alias with lazy=false
+01:24:54.205 [localhost-startStop-1] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.sebastian.hello.modelo.Empresa:alias]
+01:24:54.205 [localhost-startStop-1] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for alias
+01:24:54.205 [localhost-startStop-1] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property alias
+01:24:54.206 [localhost-startStop-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(empresas), mappingColumn=nombre, insertable=true, updatable=true, unique=false}
+01:24:54.206 [localhost-startStop-1] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property nombre with lazy=false
+01:24:54.207 [localhost-startStop-1] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.sebastian.hello.modelo.Empresa:nombre]
+01:24:54.207 [localhost-startStop-1] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for nombre
+01:24:54.207 [localhost-startStop-1] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property nombre
+01:24:54.213 [localhost-startStop-1] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for rut
+01:24:54.214 [localhost-startStop-1] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for alias
+01:24:54.214 [localhost-startStop-1] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for nombre
+01:24:54.217 [localhost-startStop-1] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [rut] to be non-null as it is part of the primary key for table [empresas]
+01:24:54.291 [localhost-startStop-1] DEBUG org.hibernate.internal.SessionFactoryImpl - Building session factory
+01:24:54.293 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+01:24:54.294 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+01:24:54.295 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+01:24:54.295 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+01:24:54.295 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+01:24:54.295 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+01:24:54.295 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+01:24:54.296 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+01:24:54.296 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+01:24:54.296 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+01:24:54.296 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2
+01:24:54.296 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+01:24:54.296 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+01:24:54.297 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+01:24:54.297 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+01:24:54.297 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+01:24:54.297 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+01:24:54.297 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - JPA query language strict compliance: disabled
+01:24:54.297 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+01:24:54.298 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Second-level cache: enabled
+01:24:54.298 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+01:24:54.298 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@2481d45a
+01:24:54.298 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+01:24:54.298 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+01:24:54.299 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+01:24:54.299 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+01:24:54.299 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+01:24:54.299 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+01:24:54.299 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+01:24:54.300 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+01:24:54.300 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+01:24:54.300 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+01:24:54.300 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+01:24:54.300 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Connection release mode: ON_CLOSE
+01:24:54.300 [localhost-startStop-1] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+01:24:54.411 [localhost-startStop-1] DEBUG org.hibernate.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+01:24:54.411 [localhost-startStop-1] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiating session factory with properties: {awt.toolkit=sun.awt.X11.XToolkit, java.specification.version=10, file.encoding.pkg=sun.io, sun.cpu.isalist=, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=UTF-8, java.class.path=/opt/netbeans/9-beta/java/maven/boot/plexus-classworlds-2.5.2.jar, java.vm.vendor="Oracle Corporation", sun.arch.data.model=64, java.vendor.url=http://java.oracle.com/, catalina.useNaming=true, user.timezone=America/Santiago, os.name=Linux, java.vm.specification.version=10, javax.persistence.validation.mode=AUTO, sun.java.launcher=SUN_STANDARD, user.country=CL, sun.boot.library.path=/home/sebastian/java/jdk/jdk-10/lib, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/opt/netbeans/9-beta/java/maven-nblib/netbeans-eventspy.jar tomcat7:run, javax.persistence.sharedCache.mode=UNSPECIFIED, jdk.debug=release, maven.home=/opt/netbeans/9-beta/java/maven, sun.cpu.endian=little, user.home=/home/sebastian, user.language=es, java.specification.vendor=Oracle Corporation, java.naming.factory.url.pkgs=org.apache.naming, java.version.date=2018-03-20, java.home=/home/sebastian/java/jdk/jdk-10, file.separator=/, java.vm.compressedOopsMode=32-bit, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper., package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper., hibernate.hbm2ddl.auto=update, server.loader=, java.util.logging.config.file=/home/sebastian/java/libros/spring/codigo/spring-mvc/target/tomcat/conf/logging.properties, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=10+46, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, user.name=sebastian, path.separator=:, securerandom.source=file:/dev/./urandom, common.loader=/home/sebastian/java/libros/spring/codigo/spring-mvc/target/tomcat/lib,/home/sebastian/java/libros/spring/codigo/spring-mvc/target/tomcat/lib/*.jar,/home/sebastian/java/libros/spring/codigo/spring-mvc/target/tomcat/lib,/home/sebastian/java/libros/spring/codigo/spring-mvc/target/tomcat/lib/*.jar, os.version=4.15.0-1-amd64, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, hibernate.ejb.persistenceUnitName=default, guice.disable.misplaced.annotation.check=true, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vendor.version=18.3, maven.ext.class.path=/opt/netbeans/9-beta/java/maven-nblib/netbeans-eventspy.jar, org.apache.catalina.startup.ContextConfig.jarsToSkip=, java.vendor.url.bug=http://bugreport.java.com/bugreport/, java.io.tmpdir=/tmp, catalina.home=/home/sebastian/java/libros/spring/codigo/spring-mvc/target/tomcat, java.version=10, user.dir=/home/sebastian/java/libros/spring/codigo/spring-mvc, os.arch=amd64, maven.multiModuleProjectDirectory=/home/sebastian/java/libros/spring/codigo/spring-mvc, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, sun.os.patch.level=unknown, tomcat.util.scan.DefaultJarScanner.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,websocket-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,tools.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j.jar,log4j-1*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,junit.jar,junit-*.jar,hamcrest*.jar,org.hamcrest*.jar,ant-launcher.jar, catalina.base=/home/sebastian/java/libros/spring/codigo/spring-mvc/target/tomcat, shared.loader=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@3d82a71f, java.util.logging.manager=org.apache.juli.ClassLoaderLogManager, java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=10+46, classworlds.conf=/opt/netbeans/9-beta/java/maven/bin/m2.conf, org.apache.catalina.startup.TldConfig.jarsToSkip=tomcat7-websocket.jar, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, hibernate.connection.datasource=org.springframework.jdbc.datasource.DriverManagerDataSource@322df9a9, tomcat.util.buf.StringCache.byte.enabled=true, java.class.version=54.0}
+01:24:54.438 [localhost-startStop-1] DEBUG org.hibernate.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+01:24:54.457 [localhost-startStop-1] DEBUG org.hibernate.engine.spi.CascadeStyles - External cascade style regsitration [persist : STYLE_PERSIST_SKIPLAZY] overrode base registration [STYLE_PERSIST]
+01:24:54.495 [localhost-startStop-1] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiated session factory
+01:24:54.619 [localhost-startStop-1] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.sebastian.hello.modelo.Empresa] is safe
+01:24:54.619 [localhost-startStop-1] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.sebastian.hello.modelo.Empresa
+01:24:54.652 [localhost-startStop-1] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.sebastian.hello.modelo.Empresa] is safe
+01:24:54.652 [localhost-startStop-1] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.sebastian.hello.modelo.Empresa
+01:24:54.787 [localhost-startStop-1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: com.sebastian.hello.modelo.Empresa
+01:24:54.787 [localhost-startStop-1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select rut from empresas where rut =?
+01:24:54.787 [localhost-startStop-1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select empresa_.rut, empresa_.alias as alias2_0_, empresa_.nombre as nombre3_0_ from empresas empresa_ where empresa_.rut=?
+01:24:54.787 [localhost-startStop-1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into empresas (alias, nombre, rut) values (?, ?, ?)
+01:24:54.788 [localhost-startStop-1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update empresas set alias=?, nombre=? where rut=?
+01:24:54.788 [localhost-startStop-1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from empresas where rut=?
+01:24:54.838 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@35193ea3]
+01:24:54.841 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : alias
+01:24:54.842 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : nombre
+01:24:54.842 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+01:24:54.872 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+01:24:54.881 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.sebastian.hello.modelo.Empresa)
+    - Returns
+       - EntityReturnImpl(entity=com.sebastian.hello.modelo.Empresa, querySpaceUid=<gen:0>, path=com.sebastian.hello.modelo.Empresa)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.sebastian.hello.modelo.Empresa)
+          - SQL table alias mapping - empresa0_
+          - alias suffix - 0_
+          - suffixed key columns - {rut1_0_0_}
+
+01:24:54.885 [localhost-startStop-1] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.sebastian.hello.modelo.Empresa [NONE]: select empresa0_.rut as rut1_0_0_, empresa0_.alias as alias2_0_0_, empresa0_.nombre as nombre3_0_0_ from empresas empresa0_ where empresa0_.rut=?
+01:24:54.886 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@58e6fd04]
+01:24:54.886 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : alias
+01:24:54.886 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : nombre
+01:24:54.887 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+01:24:54.887 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+01:24:54.887 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.sebastian.hello.modelo.Empresa)
+    - Returns
+       - EntityReturnImpl(entity=com.sebastian.hello.modelo.Empresa, querySpaceUid=<gen:0>, path=com.sebastian.hello.modelo.Empresa)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.sebastian.hello.modelo.Empresa)
+          - SQL table alias mapping - empresa0_
+          - alias suffix - 0_
+          - suffixed key columns - {rut1_0_0_}
+
+01:24:54.888 [localhost-startStop-1] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.sebastian.hello.modelo.Empresa [READ]: select empresa0_.rut as rut1_0_0_, empresa0_.alias as alias2_0_0_, empresa0_.nombre as nombre3_0_0_ from empresas empresa0_ where empresa0_.rut=?
+01:24:54.888 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@59f7fb05]
+01:24:54.888 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : alias
+01:24:54.888 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : nombre
+01:24:54.888 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+01:24:54.889 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+01:24:54.889 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.sebastian.hello.modelo.Empresa)
+    - Returns
+       - EntityReturnImpl(entity=com.sebastian.hello.modelo.Empresa, querySpaceUid=<gen:0>, path=com.sebastian.hello.modelo.Empresa)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.sebastian.hello.modelo.Empresa)
+          - SQL table alias mapping - empresa0_
+          - alias suffix - 0_
+          - suffixed key columns - {rut1_0_0_}
+
+01:24:54.889 [localhost-startStop-1] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.sebastian.hello.modelo.Empresa [UPGRADE]: select empresa0_.rut as rut1_0_0_, empresa0_.alias as alias2_0_0_, empresa0_.nombre as nombre3_0_0_ from empresas empresa0_ where empresa0_.rut=? for update
+01:24:54.890 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@38199c6]
+01:24:54.890 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : alias
+01:24:54.890 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : nombre
+01:24:54.890 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+01:24:54.890 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+01:24:54.891 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.sebastian.hello.modelo.Empresa)
+    - Returns
+       - EntityReturnImpl(entity=com.sebastian.hello.modelo.Empresa, querySpaceUid=<gen:0>, path=com.sebastian.hello.modelo.Empresa)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.sebastian.hello.modelo.Empresa)
+          - SQL table alias mapping - empresa0_
+          - alias suffix - 0_
+          - suffixed key columns - {rut1_0_0_}
+
+01:24:54.891 [localhost-startStop-1] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.sebastian.hello.modelo.Empresa [UPGRADE_NOWAIT]: select empresa0_.rut as rut1_0_0_, empresa0_.alias as alias2_0_0_, empresa0_.nombre as nombre3_0_0_ from empresas empresa0_ where empresa0_.rut=? for update
+01:24:54.891 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3ad9821e]
+01:24:54.892 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : alias
+01:24:54.892 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : nombre
+01:24:54.892 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+01:24:54.892 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+01:24:54.893 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.sebastian.hello.modelo.Empresa)
+    - Returns
+       - EntityReturnImpl(entity=com.sebastian.hello.modelo.Empresa, querySpaceUid=<gen:0>, path=com.sebastian.hello.modelo.Empresa)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.sebastian.hello.modelo.Empresa)
+          - SQL table alias mapping - empresa0_
+          - alias suffix - 0_
+          - suffixed key columns - {rut1_0_0_}
+
+01:24:54.893 [localhost-startStop-1] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.sebastian.hello.modelo.Empresa [UPGRADE_SKIPLOCKED]: select empresa0_.rut as rut1_0_0_, empresa0_.alias as alias2_0_0_, empresa0_.nombre as nombre3_0_0_ from empresas empresa0_ where empresa0_.rut=? for update
+01:24:54.893 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5b2bea7b]
+01:24:54.894 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : alias
+01:24:54.894 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : nombre
+01:24:54.894 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+01:24:54.895 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+01:24:54.895 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.sebastian.hello.modelo.Empresa)
+    - Returns
+       - EntityReturnImpl(entity=com.sebastian.hello.modelo.Empresa, querySpaceUid=<gen:0>, path=com.sebastian.hello.modelo.Empresa)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.sebastian.hello.modelo.Empresa)
+          - SQL table alias mapping - empresa0_
+          - alias suffix - 0_
+          - suffixed key columns - {rut1_0_0_}
+
+01:24:54.896 [localhost-startStop-1] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.sebastian.hello.modelo.Empresa [FORCE]: select empresa0_.rut as rut1_0_0_, empresa0_.alias as alias2_0_0_, empresa0_.nombre as nombre3_0_0_ from empresas empresa0_ where empresa0_.rut=? for update
+01:24:54.896 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@72715584]
+01:24:54.896 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : alias
+01:24:54.896 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : nombre
+01:24:54.896 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+01:24:54.897 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+01:24:54.897 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.sebastian.hello.modelo.Empresa)
+    - Returns
+       - EntityReturnImpl(entity=com.sebastian.hello.modelo.Empresa, querySpaceUid=<gen:0>, path=com.sebastian.hello.modelo.Empresa)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.sebastian.hello.modelo.Empresa)
+          - SQL table alias mapping - empresa0_
+          - alias suffix - 0_
+          - suffixed key columns - {rut1_0_0_}
+
+01:24:54.898 [localhost-startStop-1] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.sebastian.hello.modelo.Empresa [PESSIMISTIC_READ]: select empresa0_.rut as rut1_0_0_, empresa0_.alias as alias2_0_0_, empresa0_.nombre as nombre3_0_0_ from empresas empresa0_ where empresa0_.rut=? lock in share mode
+01:24:54.898 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7a5e8f10]
+01:24:54.898 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : alias
+01:24:54.898 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : nombre
+01:24:54.898 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+01:24:54.899 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+01:24:54.899 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.sebastian.hello.modelo.Empresa)
+    - Returns
+       - EntityReturnImpl(entity=com.sebastian.hello.modelo.Empresa, querySpaceUid=<gen:0>, path=com.sebastian.hello.modelo.Empresa)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.sebastian.hello.modelo.Empresa)
+          - SQL table alias mapping - empresa0_
+          - alias suffix - 0_
+          - suffixed key columns - {rut1_0_0_}
+
+01:24:54.899 [localhost-startStop-1] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.sebastian.hello.modelo.Empresa [PESSIMISTIC_WRITE]: select empresa0_.rut as rut1_0_0_, empresa0_.alias as alias2_0_0_, empresa0_.nombre as nombre3_0_0_ from empresas empresa0_ where empresa0_.rut=? for update
+01:24:54.900 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@71b5f20f]
+01:24:54.900 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : alias
+01:24:54.900 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : nombre
+01:24:54.900 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+01:24:54.901 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+01:24:54.901 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.sebastian.hello.modelo.Empresa)
+    - Returns
+       - EntityReturnImpl(entity=com.sebastian.hello.modelo.Empresa, querySpaceUid=<gen:0>, path=com.sebastian.hello.modelo.Empresa)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.sebastian.hello.modelo.Empresa)
+          - SQL table alias mapping - empresa0_
+          - alias suffix - 0_
+          - suffixed key columns - {rut1_0_0_}
+
+01:24:54.901 [localhost-startStop-1] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.sebastian.hello.modelo.Empresa [PESSIMISTIC_FORCE_INCREMENT]: select empresa0_.rut as rut1_0_0_, empresa0_.alias as alias2_0_0_, empresa0_.nombre as nombre3_0_0_ from empresas empresa0_ where empresa0_.rut=? for update
+01:24:54.902 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@178302bc]
+01:24:54.902 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : alias
+01:24:54.902 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : nombre
+01:24:54.902 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+01:24:54.903 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+01:24:54.903 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.sebastian.hello.modelo.Empresa)
+    - Returns
+       - EntityReturnImpl(entity=com.sebastian.hello.modelo.Empresa, querySpaceUid=<gen:0>, path=com.sebastian.hello.modelo.Empresa)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.sebastian.hello.modelo.Empresa)
+          - SQL table alias mapping - empresa0_
+          - alias suffix - 0_
+          - suffixed key columns - {rut1_0_0_}
+
+01:24:54.904 [localhost-startStop-1] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.sebastian.hello.modelo.Empresa [OPTIMISTIC]: select empresa0_.rut as rut1_0_0_, empresa0_.alias as alias2_0_0_, empresa0_.nombre as nombre3_0_0_ from empresas empresa0_ where empresa0_.rut=?
+01:24:54.904 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@42bd4926]
+01:24:54.904 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : alias
+01:24:54.904 [localhost-startStop-1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : nombre
+01:24:54.904 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+01:24:54.905 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+01:24:54.905 [localhost-startStop-1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.sebastian.hello.modelo.Empresa)
+    - Returns
+       - EntityReturnImpl(entity=com.sebastian.hello.modelo.Empresa, querySpaceUid=<gen:0>, path=com.sebastian.hello.modelo.Empresa)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.sebastian.hello.modelo.Empresa)
+          - SQL table alias mapping - empresa0_
+          - alias suffix - 0_
+          - suffixed key columns - {rut1_0_0_}
+
+01:24:54.906 [localhost-startStop-1] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.sebastian.hello.modelo.Empresa [OPTIMISTIC_FORCE_INCREMENT]: select empresa0_.rut as rut1_0_0_, empresa0_.alias as alias2_0_0_, empresa0_.nombre as nombre3_0_0_ from empresas empresa0_ where empresa0_.rut=?
+01:24:54.935 [localhost-startStop-1] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity com.sebastian.hello.modelo.Empresa: select empresa0_.rut as rut1_0_0_, empresa0_.alias as alias2_0_0_, empresa0_.nombre as nombre3_0_0_ from empresas empresa0_ where empresa0_.rut=?
+01:24:54.936 [localhost-startStop-1] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity com.sebastian.hello.modelo.Empresa: select empresa0_.rut as rut1_0_0_, empresa0_.alias as alias2_0_0_, empresa0_.nombre as nombre3_0_0_ from empresas empresa0_ where empresa0_.rut=?
+01:24:55.435 [localhost-startStop-1] DEBUG org.hibernate.mapping.Table - No alter strings for table : empresas
+01:24:55.436 [localhost-startStop-1] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+01:24:55.437 [localhost-startStop-1] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+01:24:55.453 [localhost-startStop-1] DEBUG org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01:24:55.456 [localhost-startStop-1] DEBUG org.hibernate.query.spi.NamedQueryRepository - Checking 0 named HQL queries
+01:24:55.456 [localhost-startStop-1] DEBUG org.hibernate.query.spi.NamedQueryRepository - Checking 0 named SQL queries
+01:24:55.460 [localhost-startStop-1] DEBUG org.hibernate.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@2a566da6
+01:24:55.460 [localhost-startStop-1] DEBUG org.hibernate.internal.SessionFactoryRegistry - Registering SessionFactory: e883fb69-88af-48d7-9c02-156291317085 (<unnamed>)
+01:24:55.460 [localhost-startStop-1] DEBUG org.hibernate.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+01:24:55.786 [localhost-startStop-1] DEBUG org.hibernate.stat.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+01:25:17.449 [http-bio-8080-exec-4] INFO  com.sebastian.hello.controller.HelloRestController - Saludar invocadoorg.springframework.data.jpa.repository.support.SimpleJpaRepository@7c820f54
+01:25:17.499 [http-bio-8080-exec-4] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - begin
+01:25:17.542 [http-bio-8080-exec-4] DEBUG org.hibernate.query.criteria.internal.CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from Empresa as generatedAlias0
+01:25:17.569 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@a9ec4a4
+01:25:17.570 [http-bio-8080-exec-4] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+01:25:17.627 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from com.sebastian.hello.modelo.Empresa as generatedAlias0
+01:25:17.641 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  \-[IDENT] Node: 'sebastian'
+       |     |  |  |  \-[IDENT] Node: 'hello'
+       |     |  |  \-[IDENT] Node: 'modelo'
+       |     |  \-[IDENT] Node: 'Empresa'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+01:25:17.642 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+01:25:17.696 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+01:25:17.727 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.ast.tree.FromElement - FromClause{level=1} : com.sebastian.hello.modelo.Empresa (generatedAlias0) -> empresa0_
+01:25:17.728 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -> empresa0_.rut
+01:25:17.733 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+01:25:17.733 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} empresa0_.rut ) ( FromClause{level=1} empresas empresa0_ ) )
+01:25:17.779 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.ast.util.JoinProcessor - Using FROM fragment [empresas empresa0_]
+01:25:17.786 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+01:25:17.787 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (empresas)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'empresa0_.rut as rut1_0_' {alias=generatedAlias0, className=com.sebastian.hello.modelo.Empresa, tableAlias=empresa0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'empresa0_.alias as alias2_0_, empresa0_.nombre as nombre3_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[empresa0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'empresas empresa0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=empresas,tableAlias=empresa0_,origin=null,columns={,className=com.sebastian.hello.modelo.Empresa}}
+
+01:25:17.789 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+01:25:17.804 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - HQL: select generatedAlias0 from com.sebastian.hello.modelo.Empresa as generatedAlias0
+01:25:17.807 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - SQL: select empresa0_.rut as rut1_0_, empresa0_.alias as alias2_0_, empresa0_.nombre as nombre3_0_ from empresas empresa0_
+01:25:17.808 [http-bio-8080-exec-4] DEBUG org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+01:25:17.842 [http-bio-8080-exec-4] DEBUG org.hibernate.SQL - select empresa0_.rut as rut1_0_, empresa0_.alias as alias2_0_, empresa0_.nombre as nombre3_0_ from empresas empresa0_
+01:25:17.855 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result set row: 0
+01:25:17.863 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.sebastian.hello.modelo.Empresa#85690700]
+01:25:17.884 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result set row: 1
+01:25:17.885 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.sebastian.hello.modelo.Empresa#89258600]
+01:25:17.888 [http-bio-8080-exec-4] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [com.sebastian.hello.modelo.Empresa#85690700]
+01:25:17.893 [http-bio-8080-exec-4] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [com.sebastian.hello.modelo.Empresa#85690700]
+01:25:17.893 [http-bio-8080-exec-4] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [com.sebastian.hello.modelo.Empresa#89258600]
+01:25:17.894 [http-bio-8080-exec-4] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [com.sebastian.hello.modelo.Empresa#89258600]
+01:25:17.895 [http-bio-8080-exec-4] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - committing

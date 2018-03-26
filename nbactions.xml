@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-tomcat7:run -X</actionName>
+            <displayName>tomcat7:run -X</displayName>
+            <goals>
+                <goal>tomcat7:run</goal>
+                <goal>-X</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-clean</actionName>
+            <displayName>clean</displayName>
+            <goals>
+                <goal>clean</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-tomcat7:run</actionName>
+            <displayName>tomcat7:run</displayName>
+            <goals>
+                <goal>tomcat7:run</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-package</actionName>
+            <displayName>package</displayName>
+            <goals>
+                <goal>package</goal>
+            </goals>
+        </action>
+    </actions>
