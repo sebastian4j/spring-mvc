@@ -1,10 +1,8 @@
 package com.sebastian.hello.controller;
  
-import com.sebastian.hello.repo.EmpresaRepo;
 import com.sebastian.hello.service.EmpresaService;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.sql.DataSource;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

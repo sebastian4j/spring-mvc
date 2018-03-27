@@ -3,6 +3,9 @@ package com.sebastian.hello.modelo;
 public class Saludo {
     private String saludo;
 
+    public Saludo() {
+        
+    }
     public String getSaludo() {
         return saludo;
     }
